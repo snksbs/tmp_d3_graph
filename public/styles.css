@@ -1,0 +1,19 @@
+.link {
+    stroke: #df0d0d; /* Default stroke color */
+    stroke-opacity: 0.6;
+    stroke-width: 3;
+}
+
+.link.clicked {
+    stroke: black; /* Black stroke color when clicked */
+    stroke-opacity: 1; /* Adjust opacity as needed */
+}
+
+text {
+    font: 10px sans-serif;
+    pointer-events: none;
+}
+
+select, option {
+    width: 250px;
+}
