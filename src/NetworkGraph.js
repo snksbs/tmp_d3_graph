@@ -234,6 +234,7 @@ const NetworkGraph = () => {
             setNodes([...nodes]); // Trigger re-render to update node name
         }
     };
+    
 
     const handleAddNode = () => {
         const id = nodes.length ? nodes[nodes.length - 1].id + 1 : 1;
